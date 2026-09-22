@@ -1,0 +1,71 @@
+h1 {
+  font-size: clamp(2rem, 1.33rem + 3.33vw, 3rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 1.08rem + 2.08vw, 2.125rem);
+}
+h3 {
+  font-size: clamp(1.17rem, 0.94rem + 1.15vw, 1.5rem);
+}
+h4 {
+  font-size: clamp(1rem, 0.95rem + 0.26vw, 1.063rem);
+}
+h5 {
+  font-size: 0.83rem;
+} /* Lower headings rarely need to scale */
+h6 {
+  font-size: 0.67rem;
+}
+
+.id0 {
+  font-size: 1rem;
+  max-width: none;
+}
+.id1 {
+  font-size: 1vw;
+  max-width: 90%;
+}
+.id2 {
+  font-size: 2vw;
+  max-width: 80%;
+}
+.id3 {
+  font-size: 3vw;
+}
+.id4 {
+  font-size: 4vw;
+}
+
+.vw {
+  font-size: 1vw;
+  color: blue;
+}
+.clamp1 {
+  font-size: clamp(1rem, 1vw, 2rem);
+  max-width: 90%;
+}
+.clamp2 {
+  font-size: clamp(1.2rem, 2vw, 3rem);
+  max-width: 80%;
+}
+.clamp3 {
+  font-size: clamp(1.4rem, 3vw, 4rem);
+}
+.clamp4 {
+  font-size: clamp(1.8rem, 4vw, 5rem);
+}
+
+article {
+  margin: auto;
+  width: 90%;
+  background-color: orangered;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 1px solid wheat;
+  padding: 0.5rem;
+  margin: 1rem;
+}
